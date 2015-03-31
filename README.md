@@ -1,2 +1,2 @@
 # SugarCube
-And enhanced version of teh libgdx tutorial
+And enhanced version of the libgdx tutorial
