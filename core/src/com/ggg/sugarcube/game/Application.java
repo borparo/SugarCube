@@ -20,7 +20,7 @@ import com.ggg.sugarcube.game.utils.Constants;
 
 
 
-public class Application extends Game implements Facebook
+public class Application extends Game
 {
     public Viewport viewport;
     public GameScreen gameScreen;
@@ -42,11 +42,9 @@ public class Application extends Game implements Facebook
 
     private boolean paused;
 
-    Facebook facebook;
 
-    public Application(Facebook fb)
+    public Application()
     {
-        this.facebook = fb;
     }
 
 
@@ -132,15 +130,4 @@ public class Application extends Game implements Facebook
         paused = false;
     }
 
-    @Override
-    public void shareScore()
-    {
-
-    }
-
-    @Override
-    public void shareLikeApp()
-    {
-
-    }
 }
